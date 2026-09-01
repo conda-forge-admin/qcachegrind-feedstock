@@ -11,7 +11,6 @@ package:
 source:
   url: https://invent.kde.org/sdk/kcachegrind/-/archive/v${{ version }}/kcachegrind-v${{ version }}.tar.gz
   sha256: 3e3f683d92dd990124bd06de7b8be131dec9ae3aea4dbbfe7084fca471ee4da7
-  file_name: ${{ name }}-${{ version }}.tar.gz
 
 build:
   number: 2
